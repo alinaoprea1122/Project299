@@ -58,7 +58,8 @@ void minMax(int n, int m)
 {
 	int i, j, min, max;
 
-	min = max = matrice[0][0];
+	min = 32768;
+	max = -32768;
 	for (i = 0; i < n; i++)
 	{
 		for (j = 0; j < n; j++)
