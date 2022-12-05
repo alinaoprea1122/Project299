@@ -93,7 +93,7 @@ void meniu()
 		printf("\n1. Matrice aleatoare\n");
 		printf("2. Afisare matrice\n");
 		printf("3. Suma\n");
-		printf("4. minim si maxim\n");
+		printf("4. Minim si maxim\n");
 		printf("0.Iesire\n");
 		printf("optiune: "); scanf("%d", &op);
 		switch (op)
